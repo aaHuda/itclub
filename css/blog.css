@@ -1,0 +1,171 @@
+body {
+  background-color:rgb(6, 13, 25);
+}
+
+nav {
+  background-color:rgba(6, 13, 25, 0.9);
+  border-bottom: 2px solid rgba(255,255,255,0.05);
+}
+
+.nav-menu {
+  color:#fff;
+}
+
+.button:hover {
+  background-color:#120D54;
+}
+
+.main_content {
+  margin-top:100px;
+}
+
+.container {
+  margin-top:20px;
+}
+
+.wrapper{
+  display: flex;
+  position: relative;
+}
+
+.wrapper .sidebar{
+  width: 300px;
+  height: 100%;
+  background-color:rgb(6, 13, 25);
+  padding: 30px 0px;
+  position: fixed;
+  border-right: 2px solid rgba(255,255,255,0.05);
+}
+
+.wrapper .sidebar h2{
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.wrapper .sidebar ul li{
+  padding: 15px;
+  border-bottom: 1px solid #bdb8d7;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  border-top: 1px solid rgba(255,255,255,0.05);
+  list-style:none;
+}    
+
+.wrapper .sidebar ul li a{
+  color: #bdb8d7;
+  display: block;
+  text-decoration:none;
+}
+
+.wrapper .sidebar ul li a .fas{
+  width: 25px;
+}
+
+.wrapper .sidebar ul li:hover{
+  background-color:#120D54;
+}
+    
+.wrapper .sidebar ul li:hover a{
+  color: #fff;
+}
+
+.wrapper .main_content{
+  width: 100%;
+  margin-left: 300px;
+}
+
+.wrapper .main_content .info{
+  margin: 20px;
+  color: #717171;
+  line-height: 25px;
+}
+
+.wrapper .main_content .info div{
+  margin-bottom: 20px;
+}
+
+p {
+  text-align:justify;
+}
+
+.img-blog {
+  margin-left:50px;
+}
+
+.img-top {
+  display:none;
+}
+
+.text-hide {
+text-decoration: none;
+color: #fff
+}
+
+::-webkit-scrollbar {
+  width:10px;
+  background:rgba(6, 13, 25, 0.9);
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 3px grey;
+  border-radius:10px;
+  background:rgba(6, 13, 25, 0.9);
+}
+
+::-webkit-scrollbar-thumb {
+  background:#fff;
+  border-radius:10px;
+}
+
+@media only screen and (max-width:600px) {
+  .btn-nav {
+    border:none;
+  }
+  
+  .button:hover {
+    background-color:rgba(6, 13, 25, 0);
+  }
+  
+  .sidebar {
+    display:none;
+  }
+  
+  .wrapper .main_content{
+    margin-left:0;
+  }
+  
+  .nav-item {
+    text-align:center;
+  }
+  
+  .img-blog {
+    display:none;
+  }
+  
+  .text-hide {
+    display:none;
+  }
+  
+  .img- {
+    background:red;
+    margin-bottom:10%;
+  }
+  
+  .btn-card {
+    margin-top:5%;
+    margin-left:26%;
+  }
+  
+  .judul {
+  text-align: center;
+  }
+  
+  .img-top {
+    display:inline;
+    position:relative;
+    right:8%;
+    width:100%;
+  }
+  
+}
